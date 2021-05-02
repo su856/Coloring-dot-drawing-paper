@@ -1,0 +1,119 @@
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.oval {
+    width: 4%;
+    height: 8%;
+    background: #868f96;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid black;
+  }
+.container{
+    width: 98%;
+    height: 72%;
+    border: 4px solid black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:5px 0px 5px 0px;
+    margin-top: 0;
+}
+.child{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    height: 8%;
+    width:56%;
+    margin-top: 6%;
+    background-color: #BDBBBE;
+    padding-bottom: 2px;
+}
+.square{
+    margin-top: 1%;
+    height: 80%;
+    width:8%;
+    margin-left: 5px;
+}
+.one{
+    background-color: rgb(10, 133, 10);
+}
+.two{
+    background-color:rgb(236, 236, 28);
+}
+.three{
+    background-color:rgb(247, 7, 7);
+}
+.four{
+    background-color: rgb(14, 14, 238);
+}
+.five{
+    background-color: rgb(12, 233, 148);
+}
+.six{
+    background-color: rgb(234, 241, 234);
+}
+.seven{
+    background-color:rgb(163, 43, 43);
+}
+.eight{
+    background-color:rgb(241, 122, 142);
+}
+.nine{
+    background-color: rgb(219, 14, 238);
+}
+.ten{
+    background-color: rgb(12, 12, 12);
+}
+.eleven{
+    background-color: #868f96;
+}
+.boss{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+    /* text-shadow:1px 1px 2px rgb(53, 51, 51); */
+    border-radius: 20px;
+    /* padding: 10px 0px 0px 17px; */
+    width: 99%;
+}
+.container_2{
+    list-style: none;
+}
+li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px 0px 30px;
+}
+li > a{
+    text-decoration: none;
+    border: 2px solid black;
+    background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+    border-radius: 4px;
+    padding: 3px;
+    color: black;
+}
+body{
+    background:  #868f96;
+    /* background-image: linear-gradient(to right, #868f96 0%, #596164 100%); */
+}
+.boss h1{
+    padding-top: 8px;
+    padding-left:40px;
+}
+li > a:hover{
+    color :black;
+    background: white;
+}
+.boss:hover{
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset #00000026 0px -10px 20px;
+}
+.oval:hover{
+    transform: scale(1.1);
+} 
